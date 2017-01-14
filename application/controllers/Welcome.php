@@ -1,11 +1,6 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 class Welcome extends CI_Controller {
-  function __construct(){
-    parent::__construct();
-    $this->load->model('M_yayasan');
-  }
-
   public function index(){
     $this->load->view('header');
     $this->load->view('slider');
@@ -20,9 +15,8 @@ class Welcome extends CI_Controller {
   }
 
   public function profile(){
-    $data['record'] = $this->M_yayasan->getProfile();
     $this->load->view('header');
-    $this->load->view('profile',$data);
+    $this->load->view('profile');
     $this->load->view('footer');
   }
 
