@@ -1,7 +1,7 @@
 <div class="profil">
   <div class="container">
     <div class="profil-top heading">
-      <h2>Tentang Kami</h2>
+      <h2>Profil</h2>
     </div>
     <div class="profil-bottom">
 			<div class="col-md-4 team-left wow bounceIn animated" data-wow-delay=".5s" style="visibility: visible; -webkit-animation-delay: .5s;">
