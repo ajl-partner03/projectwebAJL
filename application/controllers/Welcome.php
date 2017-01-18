@@ -19,9 +19,10 @@ class Welcome extends CI_Controller {
     $this->load->view('footer');
   }
 
-  public function profile(){
+  public function artikel(){
+    $data['record'] = $this->m_yayasan->getArticle();
     $this->load->view('header');
-    $this->load->view('profile');
+    $this->load->view('artikel',$data);
     $this->load->view('footer');
   }
 

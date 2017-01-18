@@ -14,4 +14,9 @@ class M_admin extends CI_Model {
     function getSingleAdmin($id){
       return $query = $this->db->get_where('user', array('id' => $id));
     }
+
+    function insert_admin($data){
+      $this->db->insert($this->tabel2, $data);
+      return TRUE;
+    }
   }

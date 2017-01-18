@@ -16,7 +16,7 @@
                     </div>
                 </div>
                 <!-- /.row -->
-                <a class="btn btn-primary"  href="#">Add Admin</a>
+                <a class="btn btn-primary"  href="<?php echo base_url() ?>index.php/admin/welcome/addadmin">Add New Admin</a>
                 <h2>Data Admin</h2>
                   <div class="table-responsive">
                     <table class="table table-bordered table-hover table-striped">

@@ -9,7 +9,7 @@
 <link href="<?php echo base_url() ?>assets/css/bootstrap.css" rel='stylesheet' type='text/css' />
 <link href="<?php echo base_url() ?>assets/css/style.css" rel='stylesheet' type='text/css' />
 <script src="<?php echo base_url() ?>assets/js/jquery.min.js"></script>
-<script language="javascript" type="text/javascript" src="<?php echo base_url() ?>assets/js/elsyifa.js"></script>
+<!-- <script language="javascript" type="text/javascript" src="<?php echo base_url() ?>assets/js/elsyifa.js"></script> -->
 <script language="javascript" type="text/javascript" src="<?php echo base_url() ?>assets/js/main.js"></script>
 <!--start-smoth-scrolling-->
 <script type="text/javascript" src="<?php echo base_url() ?>assets/js/move-top.js"></script>
@@ -58,7 +58,7 @@
 						<ul>
 							<li><a href="<?php echo base_url() ?>index.php"><span class="glyphicon glyphicon-home"></span>Home</a></li>
 							<li><a href="<?php echo base_url() ?>index.php/welcome/tentang"><span class="glyphicon glyphicon-info-sign"></span>Tentang Kami</a></li>
-							<li><a href="<?php echo base_url() ?>index.php/welcome/profile"  <?php if($this->uri->segment(1)=="profile"){echo 'class="active"';}?>><span class="glyphicon glyphicon-picture"></span>Profile</a></li>
+							<li><a href="<?php echo base_url() ?>index.php/welcome/artikel"  <?php if($this->uri->segment(1)=="profile"){echo 'class="active"';}?>><span class="glyphicon glyphicon-picture"></span>Artikel</a></li>
 							<li><a href="<?php echo base_url() ?>index.php/welcome/kontak"><span class="glyphicon glyphicon-envelope"></span>Kontak Kami</a></li>
 							<div class="clearfix"> </div>
 						</ul>

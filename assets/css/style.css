@@ -789,33 +789,33 @@ figure.effect-oscar:hover img {
 	margin-top:15px;
 }
 /*--about-ends--*/
-/*--profil-start--*/
-.profil{
+/*--artikel-start--*/
+.artikel{
 	padding:6em 0px;
 }
-.profil-left img{
+.artikel-left img{
 	width:100%;
 }
-.profil-bottom,.why-bottom{
+.artikel-bottom,.why-bottom{
 	margin-top:4%;
 }
-.profil-top{
+.artikel-top{
 	text-align:center;
 }
-.profil-right h4 {
+.artikel-right h4 {
     color: #00ccff;
     margin: 0;
     font-size: 1.07em;
     line-height: 1.5em;
     font-family: 'AllertaStencil-Regular';
 }
-.profil-right p{
+.artikel-right p{
 	font-size: 16px;
     color: #999;
     line-height: 1.8em;
     margin-top:8px;
 }
-/*--profil-end--*/
+/*--artikel-end--*/
 /*--media-quaries-starts-here--*/
 @media (max-width:1600px){
 a.tooltips span:before {
