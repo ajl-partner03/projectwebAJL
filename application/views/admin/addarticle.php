@@ -43,7 +43,11 @@
                 <input type="file" name="article" required>
               </div>
               <button type="submit" name="btnSubmit" class="btn btn-success">Save</button>
+<<<<<<< HEAD
               <a class="btn btn-warning"  href="<?php echo base_url() ?>index.php/admin/welcome/articlepost">Cancel</a>
+=======
+              <button type="reset" class="btn btn-warning">Cancel</button>
+>>>>>>> ceaa9f36ab8105ac0b12335e10c62c41e212db48
               <!-- <input type="submit" value="simpan"> -->
               <?php echo form_close(); ?>
             </form>

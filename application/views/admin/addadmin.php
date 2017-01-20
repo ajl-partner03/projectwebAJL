@@ -24,7 +24,11 @@
       <div class="col-lg-12">
         <div class="panel panel-default">
           <div class="panel-heading">
+<<<<<<< HEAD
             Tambah Admin
+=======
+            Tambah Artikel
+>>>>>>> ceaa9f36ab8105ac0b12335e10c62c41e212db48
           </div>
           <div class="panel-body">
             <?php echo validation_errors() ?>
@@ -39,7 +43,12 @@
             </div>
             <input type="hidden" name="id">
             <button type="submit" name="btnSubmit" class="btn btn-success">Save</button>
+<<<<<<< HEAD
             <a class="btn btn-warning"  href="<?php echo base_url() ?>index.php/admin/welcome">Cancel</a>            <!-- <input type="submit" value="simpan"> -->
+=======
+            <button type="reset" class="btn btn-warning">Cancel</button>
+            <!-- <input type="submit" value="simpan"> -->
+>>>>>>> ceaa9f36ab8105ac0b12335e10c62c41e212db48
             <?php echo form_close(); ?>
           </div>
         </div>

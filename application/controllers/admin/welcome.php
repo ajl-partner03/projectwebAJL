@@ -41,7 +41,11 @@ class Welcome extends CI_Controller {
         'id' =>$this->input->post('id'),
 				'username' =>$this->input->post('username'),
 				'password' =>$this->input->post('password')
+<<<<<<< HEAD
 				// 'article' =>$gbr['file_name']
+=======
+				// 'profile' =>$gbr['file_name']
+>>>>>>> ceaa9f36ab8105ac0b12335e10c62c41e212db48
 				);
 				$this->m_admin->insert_admin($data); //akses model untuk menyimpan ke database
         redirect('admin/welcome'); //jika berhasil maka akan ditampilkan view gambar
@@ -50,6 +54,7 @@ class Welcome extends CI_Controller {
 			}
 	}
 
+<<<<<<< HEAD
   public function editadmin($id) {
     // public function editadmin() {
 			$data['record'] = $this->m_admin->getSingleAdmin($id)->result();
@@ -79,6 +84,8 @@ class Welcome extends CI_Controller {
 			$this->m_admin->do_hapus_admin($id);
 		}
 
+=======
+>>>>>>> ceaa9f36ab8105ac0b12335e10c62c41e212db48
   public function articlepost(){
     $data['record'] = $this->m_yayasan->getArticle();
     $this->load->view('admin/header');
@@ -126,6 +133,7 @@ class Welcome extends CI_Controller {
         }
       }
     }
+<<<<<<< HEAD
 
     //tampilkan halaman edit gambar
 		public function editarticle($id) {
@@ -173,4 +181,6 @@ class Welcome extends CI_Controller {
     function do_hapus_article($id) {
 			$this->m_yayasan->do_hapus_article($id);
 		}
+=======
+>>>>>>> ceaa9f36ab8105ac0b12335e10c62c41e212db48
 }

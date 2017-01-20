@@ -78,11 +78,7 @@ $db['default'] = array(
 	'hostname' => 'localhost',
 	'username' => 'root',
 	'password' => '',
-<<<<<<< HEAD
-	'database' => 'pweb_db',
-=======
 	'database' => 'projectwebajl',
->>>>>>> ceaa9f36ab8105ac0b12335e10c62c41e212db48
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,

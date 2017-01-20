@@ -18,6 +18,7 @@ class M_admin extends CI_Model {
       $this->db->insert($this->tabel2, $data);
       return TRUE;
     }
+<<<<<<< HEAD
 
     function update_admin($data, $id){
       $this->db->where('id', $id);
@@ -29,4 +30,6 @@ class M_admin extends CI_Model {
       $this->db->delete('user', array('id' => $id));
       redirect('admin/welcome');
     }
+=======
+>>>>>>> ceaa9f36ab8105ac0b12335e10c62c41e212db48
   }

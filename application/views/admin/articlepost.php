@@ -36,8 +36,8 @@
                           <td><?php echo $list['isi_artikel']; ?></td>
                           <td><?php echo $list['gambar_artikel']; ?></td>
                           <td>
-                            <a href="<?php echo base_url() ?>index.php/admin/welcome/editarticle/<?php echo $list['id']; ?>" class="btn btn-warning" role="button">Edit</a>
-                            <a href="<?php echo base_url() ?>index.php/admin/welcome/do_hapus_article/<?php echo $list['id']; ?>" class="btn btn-danger" role="button">Delete</a>
+                            <a href="#" class="btn btn-warning" role="button">Edit</a>
+                            <a href="#" class="btn btn-danger" role="button">Delete</a>
                           </td>
                         </tr>
                       </tbody>
