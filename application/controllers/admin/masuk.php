@@ -25,5 +25,4 @@ class Masuk extends CI_Controller {
         $password = $this->input->post('password', true);
         $this->login->cek_login($username, $password);
     }
-
 }

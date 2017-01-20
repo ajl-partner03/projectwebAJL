@@ -6,24 +6,25 @@
                     <div class="col-lg-12">
                         <h1 class="page-header">
                             Pengelolahan
-                            <small>Admin</small>
+                            <small>Artikel</small>
                         </h1>
                         <ol class="breadcrumb">
                             <li class="active">
-                                <i class="fa fa-file"></i> Admin
+                                <i class="fa fa-file"></i> Artikel
                             </li>
                         </ol>
                     </div>
                 </div>
                 <!-- /.row -->
-                <a class="btn btn-primary"  href="<?php echo base_url() ?>index.php/admin/welcome/addadmin">Add New Admin</a>
-                <h2>Data Admin</h2>
+                <a class="btn btn-primary"  href="<?php echo base_url() ?>index.php/admin/welcome/addarticle">Add New Article</a>
+                <h2>Artikel</h2>
                   <div class="table-responsive">
                     <table class="table table-bordered table-hover table-striped">
                       <thead>
                         <tr>
-                          <th>Username</th>
-                          <th>Password</th>
+                          <th>Judul Artikel</th>
+                          <th>Isi Artikel</th>
+                          <th>Gambar Artikel</th>
                           <th>Action</th>
                         </tr>
                       </thead>
@@ -31,11 +32,12 @@
                       foreach ($record->result_array() as $list) { ?>
                       <tbody>
                         <tr>
-                          <td><?php echo $list['username'] ?></td>
-                          <td><?php echo $list['password'] ?></td>
+                          <td><?php echo $list['judul_artikel']; ?></td>
+                          <td><?php echo $list['isi_artikel']; ?></td>
+                          <td><?php echo $list['gambar_artikel']; ?></td>
                           <td>
-                            <a href="<?php echo base_url() ?>index.php/admin/welcome/editadmin/<?php echo $list['id']; ?>" class="btn btn-warning" role="button">Edit</a>
-                            <a href="<?php echo base_url() ?>index.php/admin/welcome/do_hapus_admin/<?php echo $list['id']; ?>" class="btn btn-danger" role="button">Delete</a>
+                            <a href="<?php echo base_url() ?>index.php/admin/welcome/editarticle/<?php echo $list['id']; ?>" class="btn btn-warning" role="button">Edit</a>
+                            <a href="<?php echo base_url() ?>index.php/admin/welcome/do_hapus_article/<?php echo $list['id']; ?>" class="btn btn-danger" role="button">Delete</a>
                           </td>
                         </tr>
                       </tbody>

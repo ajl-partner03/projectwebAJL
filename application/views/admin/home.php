@@ -6,7 +6,7 @@
                         <a href="<?php echo base_url() ?>index.php/admin"><i class="fa fa-fw fa-dashboard"></i> Akun Admin</a>
                     </li>
                     <li>
-                        <a href="<?php echo base_url() ?>index.php/admin/welcome/profileadmin"><i class="fa fa-fw fa-bar-chart-o"></i> Profile</a>
+                        <a href="<?php echo base_url() ?>index.php/admin/welcome/articlepost"><i class="fa fa-fw fa-bar-chart-o"></i> Article</a>
                     </li>
                 </ul>
             </div>
