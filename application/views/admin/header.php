@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Admin Yayasan Sehat Indonesia</title>
+    <title>Admin Yayasan Indonesia Sehat</title>
     <!-- Bootstrap Core CSS -->
     <link href="<?php echo base_url() ?>assets/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
@@ -118,7 +118,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="<?php echo base_url() ?>index.php/admin">Yayasan Sehat Indonesia</a>
+                <a class="navbar-brand" href="<?php echo base_url() ?>index.php/admin">Yayasan Indonesia Sehat</a>
             </div>
             <!-- Top Menu Items -->
             <ul class="nav navbar-right top-nav">

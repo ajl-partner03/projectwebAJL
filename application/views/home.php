@@ -5,10 +5,10 @@
 			<div class="welcome-top">
 				<div class="col-md-4 welcome-left heading">
 					<h2>Selamat Datang</h2>
-					<h5>DI Yayasan Indonesia Sehat</h5>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+					<h5>Di Yayasan Indonesia Sehat</h5>
+					<p align="justify">Yayasan Indonesia Sehat merupakan suatu gerakan kesadaran bagi mereka yang peduli akan sesama umat manusia. Disini kami menjadi wadah bagi mereka yang hatinya tergerak akan rasa peduli terhadap sesama. Bagi kami yang memiliki visi dan misi yang sama, sudah menjadi tugas kami sebagai makhluk sosial ciptaan Tuhan...</p>
 					<div class="submit-btn">
-						<input type="submit" value="Read More ...">
+						<a href="<?php echo base_url() ?>index.php/welcome/tentang"><input type="submit" value="Read More ..."></a>
 					</div>
 				</div>
 				<div class="col-md-4 welcome-left">
@@ -18,7 +18,7 @@
 						</div>
 						<div class="wel-right">
 							<h4>Love</h4>
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+							<p align="justify">Cinta adalah sebuah emosi dari kasih sayang yang kuat dan ketertarikan pribadi. Dalam konteks filosofi cinta merupakan sifat baik yang mewarisi semua kebaikan, perasaan belas kasih dan kasih sayang. Pendapat lainnya, cinta adalah sebuah aksi/kegiatan aktif yang dilakukan manusia terhadap objek lain, berupa pengorbanan diri, empati, perhatian, kasih sayang, membantu.</p>
 						</div>
 						<div class="clearfix"></div>
 					</div>
@@ -28,7 +28,7 @@
 						</div>
 						<div class="wel-right">
 							<h4>Health</h4>
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+							<p align="justify">Kesehatan adalah keadaan sejahtera dari badan, jiwa, dan sosial yang memungkinkan setiap orang hidup produktif secara sosial, dan ekonomis. Pemeliharaan kesehatan adalah upaya penaggulangan, dan pencegahan gangguan kesehatan.</p>
 						</div>
 						<div class="clearfix"></div>
 					</div>
@@ -40,7 +40,7 @@
 						</div>
 						<div class="wel-right">
 							<h4>Social</h4>
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+							<p align="justify">Sosial adalah Kata sosial berasal dari bahasa latin yaitu ’socius’ yang berarti segala sesuatu yang lahir, tumbuh, dan berkembang dalam kehidupan bersama. Pengertian sosial pada strukturnya, yaitu suatu tatanan dari hubungan-hubungan sosial dalam masyarakat yang menempatkan pihak-pihak tertentu (individu, keluarga, kelompok, kelas) didalam posisi-posisi sosial tertentu.</p>
 						</div>
 						<div class="clearfix"></div>
 					</div>
@@ -49,8 +49,8 @@
 							<span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span>
 						</div>
 						<div class="wel-right">
-							<h4>Economy</h4>
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+							<h4 >Economy</h4>
+							<p align="justify">Secara garis besar, ekonomi diartikan sebagai "aturan rumah tangga" atau "manajemen rumah tangga." Sementara yang dimaksud dengan ahli ekonomi atau ekonom adalah orang menggunakan konsep ekonomi, dan data dalam bekerja.</p>
 						</div>
 						<div class="clearfix"></div>
 					</div>
@@ -66,14 +66,14 @@
 		<div class="container">
 			<div class="events-top heading">
 				<h3>Event</h3>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+				<p>Media komunikasi merupakan jembatan untuk menyampaikan suatu maksud atau tujuan dari principal (client) kepada target, rangkaian kegiatan yang memberikan pengalaman secara langsung dan nyata. Berikut adalah contoh social event yang sudah kami laksanakan maupun yang akan terlaksana nanti kedepanannya.</p>
 			</div>
 			<div class="events-bottom">
 				<div class="col-md-6 event-left">
 					<img src="<?php echo base_url() ?>assets/images/e1.jpg" alt="" />
 					<div class="event">
 						<h4>Gerakan Sehat Running 10k</h4>
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+						<p align="justify"> Lari kini sudah menjadi salah satu olahraga favorit yang banyak dipilih kaum urban. Tidak heran komunitas pecinta olahraga ini semakin banyak. Tak hanya itu, berbagai kegiatan lomba lari juga semakin sering digelar, sebagai bentuk penyaluran hobi.Salah satunya adalah Gerakan Sehat Running 10k 2016.</p>
 					</div>
 					<div class="date">
 						<p>Desember, 4 2016</p>
@@ -112,7 +112,7 @@
 		<div class="help-right heading">
 			<h3>We Love, We Care</h3>
 			<h5>Kepedulian adalah bukti cinta, kami melayani dan menyalurkan</h5>
-			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+			<p align="justify">Kepedulian tidak  memandang strata atau kedudukan. Kepedulian bisa dimiliki oleh seorang kepala negara sekalipun sampai orang miskinpun dapat memiliki kepedulian. Kepedulian juga merupakan sesuatu yang melimpah sehingga ia bisa hadir dimana saja dan kapan saja dan tidak menjadi berkurang karena kita memberikannya kepada orang lain.</p>
 			<div class="tool">
 				<a class="tooltips" href="#">
 				<span></span></a>

@@ -9,7 +9,7 @@
 			</div>
 			<div class="contact-form heading">
 				<h3>Contact Form</h3>
-				<p>Donec egestas nibh eu ipsum euismod cursus. Aliquam et arcu blandit, efficitur ante a, lacinia neque. Pellentesque lectus neque, vehicula vitae massa ac, malesuada dictum velit.</p>
+				<p>Jika anda memiliki saran atau masukan serta pesan untuk kami, jangan sungkan untuk menghubungi kami. Kami akan sangat senang dan terbantu oleh bantuan anda.</p>
 				<div class="contact-bottom">
 					<form>
 						<input type="text" placeholder="Name">

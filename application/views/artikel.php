@@ -15,9 +15,6 @@
           <p>
             <?php echo $list['isi_artikel']; ?>
           </p>
-          <div class="submit-btn">
-            <input type="submit" value="Selengkapnya...">
-          </div>
         </div>
       </div>
       <?php } ?>
